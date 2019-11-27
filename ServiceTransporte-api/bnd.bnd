@@ -1,0 +1,10 @@
+Bundle-Name: ServiceTransporte-api
+Bundle-SymbolicName: com.consistent.cuervo.transporte.servicebuilder.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.consistent.cuervo.transporte.servicebuilder.exception,\
+	com.consistent.cuervo.transporte.servicebuilder.model,\
+	com.consistent.cuervo.transporte.servicebuilder.service,\
+	com.consistent.cuervo.transporte.servicebuilder.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../ServiceTransporte-service/service.xml
